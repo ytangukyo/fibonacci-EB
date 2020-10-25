@@ -11,8 +11,8 @@ services:
     build:
       dockerfile: Dockerfile.dev
       context: ./nginx
-      #ports:
-            #      - '3001:80'
+      ports:
+        - '3001:80'
   api:
     build:
       dockerfile: Dockerfile.dev
